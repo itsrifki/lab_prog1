@@ -38,6 +38,8 @@ filenya pada direktori aktif (repository)
 - disini kita akan coba buat satu file bernama README.md (text file)
 $ echo “#Latihan 1” >> README.md
 - File README.md berhasil dibuat.
+![Github 1](https://user-images.githubusercontent.com/38448294/66740969-9bf0be00-ee9e-11e9-9a50-dfcb5c0eae58.png)
+
 
 	Menambahkan File baru pada repository
 
@@ -46,6 +48,7 @@ git add.
 $ git add README.md
 
 - File README.md berhasil ditambahkan. 
+![Github 2](https://user-images.githubusercontent.com/38448294/66741173-0dc90780-ee9f-11e9-99b2-5619be42b538.png)
 
 
 	Commit (Menyimpan perubahan ke database)
@@ -54,7 +57,7 @@ $ git add README.md
 gunakan perintah git commit -m “komentar commit”
 $ git commit -m “File pertama saya”
 - Perubahan berhasil disimpan.
-
+![Github 3](https://user-images.githubusercontent.com/38448294/66741245-40730000-ee9f-11e9-8781-c1e82bb49a20.png)
 
 	Membuat repository server
 
@@ -62,9 +65,11 @@ $ git commit -m “File pertama saya”
 Anda harus membuat akun terlebih dahulu.
 - Pada laman github, klik tombol start a project, atau
 - Dari menu (icon +) klik New Repositori.
-
+![Github 4](https://user-images.githubusercontent.com/38448294/66741293-64cedc80-ee9f-11e9-95cb-54fcecdf6752.png)
 - Isi nama repositorynya, misal: lab_prog1.
 - lalu klik tombol Create repositor.
+![Github 5](https://user-images.githubusercontent.com/38448294/66741423-b4ada380-ee9f-11e9-8e81-e93349f40384.png)
+
 
 	Menambahkan Remote Repository
 
@@ -83,13 +88,14 @@ perintah git push.
 $ git push -u origin master
 - Perintah ini akan meminta memasukkan username dan password pada akun 
 github.com 
-
+![Github 6](https://user-images.githubusercontent.com/38448294/66741459-cb53fa80-ee9f-11e9-8812-7d3a89ccf021.png)
 
 	Melihat hasilnya pada server repository
 
 - Buka laman github.com, arahkan pada repositorinya.
 - Maka perubahan 
 akan terlihat pada laman tersebut.
+![Github 7](https://user-images.githubusercontent.com/38448294/66741526-efafd700-ee9f-11e9-9d0e-655a115b0744.png)
 
 	Clone Repository
 
@@ -98,4 +104,5 @@ secara otomatis membuat satu direktory sesuai dengan nama repositorynya
 (working directory).
 - Untuk melakukan cloning, gunakan perintah 
 git clone [url]
+![Github 8](https://user-images.githubusercontent.com/38448294/66741593-12da8680-eea0-11e9-8502-6cabfef80835.png)
 
