@@ -38,7 +38,7 @@ filenya pada direktori aktif (repository)
 - disini kita akan coba buat satu file bernama README.md (text file)
 $ echo “#Latihan 1” >> README.md
 - File README.md berhasil dibuat.
-
+https://github.com/itsrifki/lab_prog1/blob/master/foto/Github%201.png
 	Menambahkan File baru pada repository
 
 - Untuk menambahkan file yang baru saja dibuat tersebut gunakan perintah 
